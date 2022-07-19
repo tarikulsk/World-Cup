@@ -1,0 +1,150 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* header section style start */
+
+.header {
+    align-items: center;
+    height: 646px;
+    width: 1321px;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center
+}
+
+h1 {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.header-a {
+    padding-left: 10%;
+    /* padding-top: 10%; */
+    color: aliceblue;
+    padding-right: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(#ff0000, rgb(65, 10, 218));
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+}
+
+.header-b {
+    height: 550px;
+    padding-top: 50px;
+    padding-left: 5%;
+
+}
+
+/* header section style start */
+
+/* menu section style start */
+.menu {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.menu-a {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+
+    height: 312px;
+    width: 310px;
+    background-color: black;
+    border: 1px;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.menu-button {
+
+    border: 1px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* menu section style end */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-left: 15px;
+    margin-left: 25px;
+    margin-right: 10%;
+}
+
+.item-a {
+    border: 2px solid silver;
+    border-radius: 10px;
+    width: 310px;
+    height: 362px;
+
+
+}
+
+.item {
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+
+.button {
+    margin-top: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 5px;
+}
+
+/* footer style start */
+.footer {
+    width: 1600px;
+    height: 444px;
+    background-color: darkblue;
+    margin-top: 80px;
+}
+
+/* footer style start */
