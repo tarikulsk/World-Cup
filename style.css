@@ -51,7 +51,7 @@ header p {
 .link-button {
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(rgb(255, 0, 0), rgb(62, 29, 252));
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     border-radius: 5px;
     font-weight: 900;
     color: white;
@@ -75,20 +75,49 @@ header p {
     margin-right: 10%;
 
 
+
 }
 
-.menu-a {
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-
+aside {
     height: 312px;
     width: 310px;
     background-color: black;
     border: 1px;
     border-radius: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+li {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+    font-weight: 1000;
+    padding-top: 10px;
+
+}
+
+li a {
+    color: rgb(8, 8, 8);
+    font-size: 2em;
+
+
+}
+
+li:hover {
+    color: #FBA24F;
 }
 
 .menu-button {
@@ -191,3 +220,50 @@ footer hr {
 }
 
 /* footer style start */
+
+/* website-2 style start  */
+.flag-menu {
+    display: grid;
+    grid-template-columns: 25%, 75%;
+    grid-template-columns: 25% 75%;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.container-a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 10%;
+
+}
+
+.flag-a {
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+/* website-2 style end  */
