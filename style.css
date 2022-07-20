@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -7,13 +17,13 @@ body {
 
 /* header section style start */
 
-.header {
+header {
     align-items: center;
     height: 646px;
     width: 1321px;
     background-color: black;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 10%;
     border: 1px solid black;
     border-radius: 15px;
@@ -34,10 +44,14 @@ h1 {
     padding-right: 5%;
 }
 
+header p {
+    margin-bottom: 5%;
+}
+
 .link-button {
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(#ff0000, rgb(65, 10, 218));
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(62, 29, 252));
     border-radius: 5px;
     font-weight: 900;
     color: white;
@@ -57,7 +71,7 @@ h1 {
     display: grid;
     grid-template-columns: 25% 75%;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 10%;
 
 
@@ -101,14 +115,14 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding-left: 15px;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 10%;
 }
 
 .item-a {
-    border: 2px solid silver;
+    border: 1px solid silver;
     border-radius: 10px;
-    width: 310px;
+    width: 313px;
     height: 362px;
 
 
@@ -130,21 +144,50 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 3px;
-    padding-bottom: 3px
+    padding-bottom: 3px;
+
+}
+
+h3 {
+    margin-top: 15px;
 }
 
 .icon {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 5px;
+    margin-top: 20px;
 }
 
 /* footer style start */
 .footer {
-    width: 1600px;
+    width: 100%;
     height: 444px;
-    background-color: darkblue;
+    background-color: rgb(21, 21, 22);
     margin-top: 80px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding-top: 20px;
+}
+
+.footer-text {
+    color: white;
+}
+
+footer hr {
+    width: 80%;
+    border: none;
+    margin: auto;
+    border-top: 0.5px gray solid;
 }
 
 /* footer style start */
