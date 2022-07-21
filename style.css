@@ -299,5 +299,7 @@ h2 {
 
 /* website-2 menu style end  */
 
-/* tablate view style start */
-/* tablate view style end */
+/* tab view style start */
+@media (min-width: 580px) and (max-width: 850px) {}
+
+/* tab view style end */
