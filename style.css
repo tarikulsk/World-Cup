@@ -5,6 +5,8 @@
 
 }
 
+@media screen {}
+
 
 
 
@@ -57,12 +59,33 @@ header p {
     color: white;
 }
 
-.header-b {
-    height: 550px;
+
+
+.header-img {
+
+    height: 645px;
     padding-top: 50px;
     padding-left: 5%;
+    transition: 1s;
+    animation: right-to-left 3s linear infinite;
 
 }
+
+@keyframes right-to-left {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: -10px;
+        transition: 0.5s;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
 
 /* header section style start */
 
@@ -78,6 +101,7 @@ header p {
 
 }
 
+/* aside section style start  */
 aside {
     height: 312px;
     width: 310px;
@@ -117,8 +141,13 @@ li a {
 }
 
 li:hover {
-    color: #FBA24F;
+    background-color: #FBA24F;
+
+
 }
+
+
+/* aside section style end  */
 
 .menu-button {
 
@@ -138,7 +167,7 @@ a {
 }
 
 
-/* menu section style end */
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -188,6 +217,8 @@ h3 {
     margin-top: 20px;
 }
 
+/* menu section style end */
+
 /* footer style start */
 .footer {
     width: 100%;
@@ -221,7 +252,7 @@ footer hr {
 
 /* footer style start */
 
-/* website-2 style start  */
+/* website-2 menu style start  */
 .flag-menu {
     display: grid;
     grid-template-columns: 25%, 75%;
@@ -266,4 +297,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr)
 }
 
-/* website-2 style end  */
+/* website-2 menu style end  */
+
+/* tablate view style start */
+/* tablate view style end */
